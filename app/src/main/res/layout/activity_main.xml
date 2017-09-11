@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.twpruanhong.ucroptest.MainActivity">
+
+    <Button
+        android:id="@+id/btn_crop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用Ucrop裁剪"/>
+    <Button
+        android:id="@+id/btn_crop1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用Android crop裁剪"/>
+    <Button
+        android:id="@+id/btn_crop_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="从相册中选择图片裁剪"/>
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
